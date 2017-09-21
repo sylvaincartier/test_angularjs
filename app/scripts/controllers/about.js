@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc function
- * @name testAngularjsApp.controller:AboutCtrl
+ * @name ttp1App.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the testAngularjsApp
+ * Controller of the tp1App
  */
-angular.module('testAngularjsApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('tp1App')
+    .controller('AboutCtrl', function() {
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+    });

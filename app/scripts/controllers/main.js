@@ -2,16 +2,12 @@
 
 /**
  * @ngdoc function
- * @name testAngularjsApp.controller:MainCtrl
+ * @name tp1App.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the testAngularjsApp
+ * Controller of the tp1App
  */
-angular.module('testAngularjsApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('tp1App')
+    .controller('MainCtrl', function($scope) {
+        $scope.helloWorld = "Hello World !"
+    });
